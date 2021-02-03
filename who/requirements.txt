@@ -1,0 +1,9 @@
+cs50
+Flask
+Flask-Session
+Pandas
+investpy
+bs4: BeautifulSoup
+plotly
+numpy
+werkzeug
