@@ -2,7 +2,7 @@
 A simple project for T4SG about vaccine location
 
 # Demo
-Video link can be found here: https://youtu.be/QpCRHDx_Jd4
+Video link can be found here: https://youtu.be/Y9XZy8Kfi4c
 
 # Prompt
 As a software engineer, you’ll be working on the technical development of the platform on a week to week basis, building software that makes an impact. Imagine you’re working with the World Health Organization to develop a new web platform for them to track what vaccines are getting distributed where. Specifically, you’re tasked with setting up the basic infrastructure of the website to include the following features:
