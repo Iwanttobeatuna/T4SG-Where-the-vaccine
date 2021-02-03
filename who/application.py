@@ -49,7 +49,7 @@ def home():
 @login_required
 def index():
     """Show portfolio of stocks"""
-    site = 'https://tools.cdc.gov/api/v2/resources/media/404952.rss'
+    site = 'https://shotofprevention.com/feed/'
     op = urlopen(site) #Open that site
     rd = op.read() #read data from site
     op.close()   # close the object
@@ -250,8 +250,8 @@ def vaccine():
 
         # Add user to database
         try:
-             id = db.execute("INSERT INTO vaccine (name,email, date) VALUES(?, ? , ?)",
-                            request.form.get("name"), request.form.get("email"), request.form.get("date"))
+             id = db.execute("INSERT INTO vaccine (name,email, date, state) VALUES(?, ? , ?, ?)",
+                            request.form.get("name"), request.form.get("email"), request.form.get("date"),request.form.get("state"))
         except RuntimeError:
             return apology("already registered")
 
